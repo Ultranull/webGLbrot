@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>webGL test</title>
+    <script src="main.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="webGLStart()">
+    <canvas id="canvas" width="700" height="700"></canvas>
+    <div class="slidercontainer">
+        <p class="slider" id="zoom">zoom:<input id="zoomSlider" type="range" min="0" max="1" value=".5" step=".0001" onchange="updateModifier('zoomSlider')"></p>
+        <p class="slider" id="xPos">x:<input id="xSlider" type="range" min="-2" max="2" value="0" step=".001" onchange="updateModifier('xSlider')"></p>
+        <p class="slider" id="yPox">y:<input id="ySlider" type="range" min="-2" max="2" value="0" step=".001" onchange="updateModifier('ySlider')"></p>
+        <p class="slider" id="yPox">max:<input id="maxSlider" type="range" min="0" max="300" value="50" step="1" onchange="updateModifier('maxSlider')"></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
